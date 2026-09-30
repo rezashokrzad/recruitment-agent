@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+!.env.example
+
+# uploaded resumes (personal data — never commit, never serve publicly)
+/storage/
+
+# Google service-account key files (never inside public/, never committed)
+/secrets/
